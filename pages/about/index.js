@@ -12,10 +12,11 @@ export const aboutData = [
   {
     title: 'skills',
     info: [
-      { title: 'Web Development', icons: [<FaHtml5 />, <FaCss3 />, <FaJs />, <FaReact />, <SiNextdotjs />, <SiFramer />, <FaWordpress />] },
-      { title: 'UI/UX Design', icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />] },
+      { title: 'Web Development', icons: [<FaHtml5 key="html5" />, <FaCss3 key="css3" />, <FaJs key="js" />, <FaReact key="react" />, <SiNextdotjs key="nextjs" />, <SiFramer key="framer" />, <FaWordpress key="wp" />] },
+      { title: 'UI/UX Design', icons: [<FaFigma key="figma" />, <SiAdobexd key="xd" />, <SiAdobephotoshop key="ps" />] },
     ],
   },
+  
   {
     title: 'awards',
     info: [
