@@ -22,7 +22,7 @@ const Contact = () => {
             exit='hidden'
             className='h2 xl:mt-8'
           >
-            Let's <span className='h2 xl:mt-8'>connect.</span>
+            Let&apos;s <span className='h2 xl:mt-8'>connect.</span>
           </motion.h2>
 
           {/* Form */}
@@ -61,7 +61,7 @@ const Contact = () => {
             {/* button */}
             <button className='btn rounded-full border border-slate-800 bg-slate-900/60 text-slate-200 font-medium max-w-[170px] h-[52px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-indigo-400 hover:text-white group relative self-center xl:self-start shadow-lg shadow-indigo-950/20'>
               <span className='group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500 flex items-center gap-x-2'>
-                Let's Talk
+               Let&apos;s Talk
               </span>
               <BsArrowRight className='translate-y-[120%] opacity-0 group-hover:flex group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px] text-indigo-400' />
             </button>
