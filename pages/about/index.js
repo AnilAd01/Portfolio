@@ -12,11 +12,10 @@ export const aboutData = [
   {
     title: 'skills',
     info: [
-      { title: 'Web Development', icons: [<FaHtml5 key="html5" />, <FaCss3 key="css3" />, <FaJs key="js" />, <FaReact key="react" />, <SiNextdotjs key="nextjs" />, <SiFramer key="framer" />, <FaWordpress key="wp" />] },
-      { title: 'UI/UX Design', icons: [<FaFigma key="figma" />, <SiAdobexd key="xd" />, <SiAdobephotoshop key="ps" />] },
+      { title: 'Web Development', icons: [<FaHtml5 />, <FaCss3 />, <FaJs />, <FaReact />, <SiNextdotjs />, <SiFramer />, <FaWordpress />] },
+      { title: 'UI/UX Design', icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />] },
     ],
   },
-  
   {
     title: 'awards',
     info: [
@@ -56,17 +55,20 @@ const About = () => {
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-12 relative z-10'>
         {/* text */}
         <div className='flex-1 flex flex-col justify-center pt-12 xl:pt-0'>
-          {/* <motion.h2 variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden'
-                      className='h2'>
-                      Captivating <span className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400'>stories</span> birth magnificent designs.
-                    </motion.h2> */}
+          <motion.h2 
+            variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden'
+            className='h2'
+          >
+            Captivating <span className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400'>stories</span> birth magnificent designs.
+          </motion.h2>
           
           <motion.p 
             variants={fadeIn('right', 0.4)} initial='hidden' animate='show' exit='hidden'
             className='max-w-[520px] mx-auto xl:mx-0 mb-8 xl:mb-16 px-4 xl:px-0 text-slate-400 text-sm md:text-base font-light leading-relaxed'
           >
-            I am a passionate Digital Marketing and eCommerce professional with experience in online sales, marketplace management, website operations, and digital campaigns. I enjoy helping businesses grow 
-            through innovative marketing strategies, data-driven insights, and exceptional customer experiences.
+            I am a passionate web developer and designer with a knack for creating captivating digital experiences.
+            With a strong foundation in both front-end development and UI/UX design,
+            I bring a unique blend of technical expertise and creative flair to every project I undertake.
           </motion.p>
 
           {/* counters */}
